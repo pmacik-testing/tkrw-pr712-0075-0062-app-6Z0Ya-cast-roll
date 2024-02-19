@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xlad
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0062-tenant/tkrw-pr712-0075-0062-app/devfile-sample-xlad@sha256:fc16a8c7b8aa00b98ff630fa6b937edc99b89cfa393c0b45078ba4c27166bb11
         name: my-nodejs
         ports:
         - containerPort: 3001
